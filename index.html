@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML&CSS 実践</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__list__item">
+            <a href="#service">SERVICE</a>
+          </li>
+          <li class="header-nav__list__item">
+            <a href="#news">NEWS</a>
+          </li>
+          <li class="header-nav__list__item">
+            <a href="#price">PRICE</a>
+          </li>
+          <li class="header-nav__list__item">
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    <section class="top" id="top">
+      <div class="top-wrapper">
+        <h1 class="top-wrapper__ttl">WithCode Mobile</h1>
+      </div>
+    </section>
+    <section class="service section" id="service">
+      <h2 class="ttl">SERVICE</h2>
+      <div class="service-wrapper">
+        <div class="service-wrapper__left">
+          <img src="img/service.png" alt="サービス画像">
+        </div>
+        <div class="service-wrapper__right">
+          <h3 class="service-wrapper__right__ttl">新春９９９円キャンペーン</h3>
+          <p class="service-wrapper__right__txt">※ 以下条件の<strong>すべて</strong>を満たした場合に新春９９９円キャンペーンの適用となります。</p>
+          <hr>
+          <p class="service-wrapper__right__txt">
+            個人契約のお客さまであること<br>
+            シンプルS/M/L（以下「対象プラン」といいます。）にご加入頂くこと<br>
+            スーパーだれとでも定額（S）にお申し込み頂くこと<br>
+            当社システムに登録された使用者年齢が以下のいずれかの時点で60歳以上であること<br>
+            ・対象プランにご契約いただいた時点<br>
+            ・スーパーだれとでも定額（S）へのお申し込み時点<br>
+            ・機種変更、プラン変更などの情報変更のお申し込み時点
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="news section" id="news">
+      <h2 class="ttl">NEWS</h2>
+      <div class="news-wrapper">
+        <p class="news-wrapper__txt">2021/1/1 地震による通信状況の悪化に関する情報</p>
+        <p class="news-wrapper__txt">2020/12/1 年末年始の店舗休業案内</p>
+        <p class="news-wrapper__txt">2020/8/1 台風による通信環境悪化に関する情報</p>
+      </div>
+    </section>
+    <section class="price section" id="price">
+      <h2 class="ttl">PRICE</h2>
+      <div class="price-wrapper">
+  <table class="price-wrapper__table">
+   
+      <tr>
+        <th>ー</th>
+        <th>１０GBパック</th>
+        <th>１５GBパック</th>
+      </tr>
+      <tr>
+        <td>基本料金</td>
+        <td>９９９円/月</td>
+        <td>９９９円/月</td>
+      </tr>
+      <tr>
+        <td>データ料金</td>
+        <td>９００円/月</td>
+        <td>１５００円/月</td>
+      </tr>
+  </table>
+</div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="ttl">CONTACT</h2>
+      <form class="contact-form" method="post">
+        <div class="contact-form__item">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+        </div>
+        <div class="contact-form__item">
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_mail">
+        </div>
+        <div class="contact-form__item">
+          <label for="tel">Tell:</label>
+          <input type="tel" id="tel" name="user_tel">
+        </div>
+        <div class="contact-form__item">
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="contact-form__btn">
+          <button class="contact-form__btn__submit" type="submit">送信</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <div class="footer-wrapper">
+      <small class="footer-wrapper__txt">© 2021 WithCode All rights reserved.</small>
+    </div>
+  </footer>
+  </body>
+</html>

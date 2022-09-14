@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+html {
+  font-size: 18px;
+}
+.header-nav__list {
+  display: flex;
+    justify-content: space-around;
+    background-color: rgb(47, 7, 122);
+    padding: 1.5% 5%;
+  }
+  .header-nav__list__item {
+    font-size: 1.2rem;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;
+    background: #FFF;
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+  }
+  .header-nav__list__item a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top {
+    height: 75vh;
+    background: url(../img/top.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .top-wrapper {
+    width: 47.5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .top-wrapper__ttl {
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: #007;
+    padding: 3.75%;
+    font-family: cursive;
+  }
+
+  .section {
+    width: 80%;
+    margin: 5% auto;
+  }
+
+  .ttl {
+    font-size: 3rem;
+    text-align: center;
+    color: #ffff00;
+    margin-bottom: 5%;
+    font-family: cursive;
+  }
+
+  .service-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service-wrapper__left img{
+    width: 80%;
+    height: auto;
+  }
+
+  .service-wrapper__right__ttl {
+    font-size: 1.2rem;
+    color: #75d5ff;
+    padding: 2.5% 0;
+  }
+  
+  .service-wrapper__right__txt {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    background: #fff8e8;
+    border-left: solid 10px #ffc06e;
+
+  }
+
+  .news {
+    text-align: center;
+  }
+
+  .news-wrapper {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .price-wrapper__table {
+    border: double #75d5ff 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .price-wrapper__table tr {
+    border: solid #75d5ff 3px;
+    padding: 1%;
+  }
+
+  .price-wrapper__table th {
+    border: solid #75d5ff 3px;
+    padding: 1%;
+  }
+  
+  .price-wrapper__table td {
+    border: solid #75d5ff 3px;
+    padding: 1%;
+  }
+
+  .contact {
+    background: #808080;
+  }
+
+  .contact .ttl { 
+    padding: 5% 0;
+    margin: 0; 
+  }
+
+  .contact-form {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .contact-form__item label {
+    display: inline-block;
+    width: 30%;
+    line-height: 2;
+  }
+  
+  .contact-form__item input,
+  textarea {
+    box-sizing: border-box;
+    border: solid #ddd 1px;
+    width: 60%;
+    margin-bottom: 2.5%;
+  }
+  
+  .contact-form__item input {
+    padding: 1%;
+  }
+  
+  .contact-form__item textarea {
+    vertical-align: top;
+    height: 25vh;
+  }
+
+  .contact-form__btn {
+    text-align: center;
+    
+  }
+  
+  .contact-form__btn__submit {
+    padding: 1.5% 5%;
+    background-color: #555;
+    margin: 5% 0;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    border-radius: 5%;
+  }
+
+  .footer {
+    background-color: #444;
+    padding: 5%;
+    text-align: center;
+    color: #fff;
+    
+  }
